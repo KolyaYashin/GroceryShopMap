@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="create" layoutX="5.0" layoutY="95.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#createShop" prefHeight="90.0" prefWidth="130.0" text="create shop">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button fx:id="find" alignment="CENTER" layoutX="150.0" layoutY="95.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#show" prefHeight="90.0" prefWidth="130.0" text="find">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+   </children>
+</Pane>
